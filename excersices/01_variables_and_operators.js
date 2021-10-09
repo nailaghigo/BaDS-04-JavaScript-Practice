@@ -19,9 +19,6 @@ console.log('The result for excercise number 1-b is ' + joinedStrings);
 - Create two String type variables and add the length of each one (number of letters in the string), saving the sum result in a 3rd variable (use length). */
 var stringOneC = 'water';
 var stringTwoC = 'bottle';
-var lengthStringOneC = stringOneC.length;
-var lengthStringTwoC = stringTwoC.length;
 
-var stringSumLenght = parseInt(lengthStringOneC + lengthStringTwoC)
-
+var stringSumLenght = stringOneC.length + stringTwoC.length;
 console.log('The result for excercise number 1-c is ' + stringSumLenght);
