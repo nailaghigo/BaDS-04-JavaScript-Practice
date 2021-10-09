@@ -11,3 +11,9 @@ console.log('The result for excercise number 2-a is ' + toUpper);
 var first5Characters = text.substring(0, 5);
 
 console.log('The result for excercise number 2-a is ' + first5Characters);
+
+/* 2-c
+- Create a String type variable with at least 10 characters and create a new string with the first 5 characters saving the result in a new variable (use substring) */
+var last3Characters = text.substring(text.length - 3);
+
+console.log('The result for excercise number 2-a is ' + last3Characters);
