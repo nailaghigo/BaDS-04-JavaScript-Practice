@@ -20,8 +20,14 @@ var elementAfter = sortedMonthArr.push(2021);
 console.log('This is the result of exercise 3-c: ' + sortedMonthArr);
 
 /* 3-d
-Remove th efirst element and the last one from the array (use shift and pop).*/
+Remove the first element and the last one from the array (use shift and pop).*/
 var quitFirstElem = sortedMonthArr.shift(0);
 var quitLastElem = sortedMonthArr.pop();
 
 console.log('This is the result of exercise 3-d: ' + sortedMonthArr);
+
+/* 3-e
+invert the array order (use reverse).*/
+var invertOrder = sortedMonthArr.reverse(0);
+
+console.log('This is the result of exercise 3-e: ' + sortedMonthArr);
