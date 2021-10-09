@@ -11,3 +11,10 @@ Order alphabetically the month array and show it by console.(use sort).*/
 var sortedMonthArr = monthArr.sort();
 
 console.log('3-b) This is month array sorted alphabetically: ' + sortedMonthArr);
+
+/* 3-c
+Add one element at the biggining and at the end of the array (use unshift and push).*/
+var elementBefore = sortedMonthArr.unshift('Meses');
+var elementAfter = sortedMonthArr.push(2021);
+
+console.log('This is the result of exercise 3-c: ' + sortedMonthArr);
