@@ -46,3 +46,27 @@ function validateInteger(value) {
 
 var value = 'Hola';
 console.log('This is the result of exercise 6-c, is "' + value + '" an Integer?: ' + validateInteger(value));
+
+/* 6-d
+To the sum function of exercise 6b) add a call that validates if the numbers are integers. 
+In case of any decimals, show an alert with the error and return the number converted to integer (rounded). */
+
+
+var priceOne = 5.3;
+var priceTwo = 4.3;
+
+function totalPrice (a, b) {
+    if (validateInteger(a) && !isNaN(a) && validateInteger(b) && !isNaN(b)){
+        return a + b;
+    } else {
+        if(!validateInteger(a)) {
+            alert(a +' : this value is not an integer');
+            return Math.round(a);
+        } else {
+            alert(b +' : this value is not an integer');
+            return Math.round(b);
+        }
+    }
+}
+
+var totalResult = totalPrice(priceOne, priceTwo);
