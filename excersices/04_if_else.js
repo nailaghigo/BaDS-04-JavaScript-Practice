@@ -3,13 +3,13 @@ console.log('*****If-Else Practice*****');
 - Create a random number between 0 and 1 using Math.random(), if the value is more or equeal to 0,5, show an alert with the message “Greater than 0,5”, 
 if not show an alert with the message “Lower than 0,5 */
 
-var randomNumber = Math.random(0, 1);
+// var randomNumber = Math.random(0, 1);
 
-if (randomNumber >= 0.5) {
-    alert(randomNumber + ' is greater than 0,5');
-} else {
-    alert(randomNumber + ' is lower than 0,5')
-}
+// if (randomNumber >= 0.5) {
+//     alert(randomNumber + ' is greater than 0,5');
+// } else {
+//     alert(randomNumber + ' is lower than 0,5')
+// }
 
 /* 1-b
 Create a variable named "age" that contains a number between 0 and 100 and show the following alert messages:
@@ -23,22 +23,22 @@ vii) “Anciano” if it's more than 75 years old.*/
 
 var age = 61;
 
-if (age > 0){
-    if(age < 2){
-        alert(age + ' = Bebe');
-    } else if (age >= 2 && age <= 12){
-        alert(age + ' = Nino');
-    } else if(age >= 13 && age <= 19){
-        alert(age + ' = Adolescente');
-    } else if(age >= 20 && age <= 30){
-        alert(age + ' = Joven');
-    } else if(age >= 31 && age <= 60){
-        alert(age + ' = Adulto');
-    } else if(age >= 61 && age <= 75){
-        alert(age + ' = Adulto mayor');
-    } else {
-        alert(age + ' = Anciano');
-    }
-} else {
-    alert('Error: age is not valid');
-}
+// if (age > 0){
+//     if(age < 2){
+//         alert(age + ' = Bebe');
+//     } else if (age >= 2 && age <= 12){
+//         alert(age + ' = Nino');
+//     } else if(age >= 13 && age <= 19){
+//         alert(age + ' = Adolescente');
+//     } else if(age >= 20 && age <= 30){
+//         alert(age + ' = Joven');
+//     } else if(age >= 31 && age <= 60){
+//         alert(age + ' = Adulto');
+//     } else if(age >= 61 && age <= 75){
+//         alert(age + ' = Adulto mayor');
+//     } else {
+//         alert(age + ' = Anciano');
+//     }
+// } else {
+//     alert('Error: age is not valid');
+// }
