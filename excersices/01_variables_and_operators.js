@@ -1,6 +1,7 @@
-console.log('*****Variables and Operators Practice*****');
+console.log('%c*****Variables and Operators Practice*****', 'color:green');
 /* 1-a
 - Create two number variables and use the sum operator to save the total value of both in a third variable. */
+
 var numberOne = 20;
 var numberTwo = 30;
 
@@ -9,6 +10,7 @@ console.log('The result for excercise number 1-a is: ' + sumResult);
 
 /* 1-b
 - Create two String type variables and concatenate them by saving the result in a third variable.. */
+
 var stringOne = 'Good';
 var stringTwo = 'Morning';
 
@@ -17,6 +19,7 @@ console.log('The result for excercise number 1-b is: ' + joinedStrings);
 
 /* 1-c
 - Create two String type variables and add the length of each one (number of letters in the string), saving the sum result in a 3rd variable (use length). */
+
 var stringOneC = 'water';
 var stringTwoC = 'bottle';
 
